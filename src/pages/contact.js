@@ -6,14 +6,14 @@ const contact = () => {
     <section className="contact-page">
       <article className="contact-form">
         <h3>get in touch</h3>
-        <form>
+        <form action="https://formspree.io/f/maylqooo" method="POST">
           <div className="from-group">
             <input
-              type="text"
+              type="text" name="name"
               placeholder="name"
               className="form-control" />
             <input
-              type="email"
+              type="email" name="email"
               placeholder="email"
               className="form-control" />
             <textarea
