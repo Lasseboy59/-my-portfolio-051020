@@ -894,10 +894,9 @@ About Page
   padding: 7rem 0;
 }
 .about-img {
-  border: 1px solid #ddd;
+  margin-bottom: 2rem;
+  height: 29rem;
   border-radius: 15px;
-  margin-left: 50px;
-  width: 250px;
 }
 .about-text .section-title {
   margin-bottom: 2rem;
@@ -936,7 +935,7 @@ About Page
     column-gap: 4rem;
   }
   .about-img {
-    grid-column: 8 / span 5;
+    grid-column: 1 / span 5;
     margin-bottom: 0;
   }
   .about-text {
