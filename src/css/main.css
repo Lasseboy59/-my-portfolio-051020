@@ -548,21 +548,22 @@ Jobs
 }
 .btn-container {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  /* flex-direction: row;
+  justify-content: center; */
+  flex-wrap: wrap;
   margin-bottom: 4rem;
 }
 .job-btn {
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
-  font-size: 1.25rem;
+  font-size: 0.85rem;
   letter-spacing: var(--spacing);
-  margin: 0 0.5rem;
+  margin: 0.5rem;
   transition: var(--transition);
   cursor: pointer;
   padding: 0.25rem 0;
-  line-height: 1;
+  line-height: 1.5;
 }
 .job-btn:hover {
   color: var(--clr-primary-5);
@@ -615,7 +616,8 @@ Jobs
     justify-content: flex-start;
   }
   .job-btn {
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
+
   }
   .active-btn {
     box-shadow: -2px 0 var(--clr-primary-5);
