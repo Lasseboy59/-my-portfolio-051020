@@ -6,6 +6,8 @@ const contact = () => {
     <section className="contact-page">
       <article className="contact-form">
         <h3>get in touch</h3>
+        <a href="https://www.linkedin.com/in/laurikyttala/" target="_blank">LinkedIn </a>
+        <a href="https://twitter.com/laurikyt" target="_blank">/ Twitter</a>
         <form action="https://formspree.io/f/maylqooo" method="POST">
           <div className="from-group">
             <input
